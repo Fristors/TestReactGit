@@ -26,6 +26,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Заголовок</h1>
       <p>{timer}</p>
       <p>{number}</p>
       <Buttons addNum={addNum} removeNum={removeNum}/>
